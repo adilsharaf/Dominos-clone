@@ -1,0 +1,306 @@
+*{
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+body{
+    background-color:white;
+}
+.header{
+    height:71.2px;
+    background-color:white;
+    color:gray;
+    display:flex;
+    align-items:center;
+    width:100%;
+    
+      
+}
+.logo img{
+    margin:20px;
+    margin-left:110px;
+    display:flex;
+    margin-right:170px;
+    cursor:pointer
+
+}
+.header .links{
+ 
+    display:flex;
+    margin-right:122;
+
+}
+.header .links a{
+    display:flex;
+    padding:2px;
+    margin:14px;
+    text-decoration:none;
+    color:#5f88a3;
+    font-weight:600;
+    font-size:1vw
+}
+.header .download-button button {
+    background-color:#f3223b;
+    border:none;
+    height:45px;
+    width:148px;
+    color:white;
+    cursor:pointer;
+    border-radius:3px;
+    font-size:1vw;
+    font-weight:500;
+}
+.background{
+    background-image:url("images/header_bg.png");
+    height:433px;
+    width:895px;
+    margin-top:20px;
+    margin-left:31px;
+
+}
+.backimg{
+    padding-top:1px;
+    background-color:#1a5ca3;
+    display:flex;
+
+}
+.ordernow{
+   
+    margin:20px;
+   display:inline-block;
+   margin:150 80px;
+}
+.ordernow h1{
+    color:white;
+    font-weight:600;
+    font-size:2.3vw
+    
+}
+.ordernow p{
+color:#47a0ff;
+font-size:21px
+}
+.ordernow .order-but{
+    background-color:#1fb31a;
+    margin-top:20px;
+    padding:10;
+    width:400px;
+    height:60px;
+    color:white;
+    font-weight:800;
+    font-size:1.2vw;
+    letter-spacing:0.3;
+    border:none;
+    border-radius:2px;
+    cursor:pointer
+}
+.home-page{
+    background-color:white;
+    padding-top:13
+}
+.home{
+    margin-top:2px;
+    background-color:#eee;
+    color:#0275d8;
+    padding:6 16px;
+    cursor:pointer;
+}
+.home:hover{
+    text-decoration: underline;
+}
+.home-page img{
+    height:280px;
+    width:610px
+}
+.home-page .items {
+    display:flex;
+
+}
+.items{
+    margin-left:95px;
+    margin-top:24px;
+    margin-right:58;
+    overflow-x:auto;
+}
+.home-page .items img{
+    padding-right:20;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    cursor:pointer
+}
+.items::-webkit-scrollbar{
+    width:0px;
+}
+.home-page .coupons{
+    display:inline-block;
+    margin-left:100px;
+    margin-top:50px;
+    font-size:2vw;
+    color:#708aa5;
+}
+.explore{
+    margin:50 ;
+    color:#708aa5;
+    margin-left:107;
+    background-color:white;
+    
+}
+
+.facili1{
+    background-color:rgb(255, 254, 253);
+    width:300.35px;
+    height:325.8px;
+    border:1px dotted #708aa5;
+    border-radius:3px;
+    cursor:pointer;
+}
+.headm{
+    font-size:1.3vw;
+    padding-top:15px;
+    padding-bottom:20px;
+    color:#2b4547;
+}
+.menu p{
+    font-size:1.1vw;
+    padding-bottom:10px;
+    line-height:1.6
+}
+
+.menu{
+     width:200px;
+    text-align:center;
+    margin:10;
+    padding-top:22px;
+    color:#708aa5;
+    margin-left:60px;
+   
+}
+.book1{
+    color:#de042e;
+    text-align:center;
+    padding-top:13px;
+    font-weight:700;
+    font-size:1vw
+}
+.allfacili{
+    display:flex;
+    margin:0 115;
+    justify-content:space-between;
+}
+.add{
+    background-color:#f2f5fc;
+    margin-top:100px;
+    display:flex;
+    height:436px;
+}
+.cell img{
+    
+    margin-left:160px;
+    margin-top:35px;
+    cursor:pointer;
+}
+.cell-text{
+margin:110px;
+margin-left:170px;
+}
+.cell-text h1{
+    color:#59688c;
+    font-size:2.6vw;
+    margin-bottom:25px;
+    font-weight:700;
+}
+.cell-text p{
+    color:#8899c0;
+    font-size:1.8vw;
+
+}
+.google{
+    margin-top:40px;
+
+}
+.google img{
+    cursor:pointer
+}
+.google .i1{
+    margin-right:25px
+}
+.paras h1{
+    color:#006491;
+    margin-bottom:30px;
+    margin-top:30px;
+    font-size:2vw
+}
+.paras p{
+    color:#54565b;
+}
+.paras{
+    margin:50px 30
+}
+.buttons{
+    margin:15px;
+    line-height: 1.5;
+    margin-top:60px;
+}
+.buttons button{
+    font-size:0.75vw;
+    font-weight:600;
+    border:3px ridge #f3ecec;
+    border-radius:3px;
+    padding:2 7px;
+    text-align:center;
+    margin-bottom:1px;
+    background-color:#f3ecec;
+    border-style:groove;
+    margin-right:3px;
+    text-align:center;
+    cursor:pointer;
+
+}
+.footer{
+    display:flex;
+    background-color:#222e3a ;
+    color:white;
+    text-decoration:none;
+}
+.footer h3{
+    color:#546273;
+    margin-left:65px;
+    margin-bottom:30px;
+    font-weight:700;
+    margin-top:60;
+}
+.footcl{
+    display:flex;
+    justify-content:space-between;
+    background-color:#222e3a ;
+    margin-bottom:15px;
+}
+.footcl li{
+  list-style:none;
+  color:rgb(246, 243, 243);
+  margin-left:25px;
+  line-height: 2;
+  font-size: 1.2vw;
+  margin-right:41;
+  cursor:pointer;
+
+}
+.fo6 a i{
+    font-size:2.3vw;
+    margin-right:10;
+    color:rgb(246, 243, 243,0.5)
+}
+.fo6{
+    margin-left:3
+}
+.fo6 a{
+    margin-left:20
+}
+.fo6 h3{
+    margin-left:20px
+}
+.finalog{
+    margin-top:18;
+    margin-left:3px;
+    margin-right:10
+}
